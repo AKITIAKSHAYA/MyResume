@@ -5,8 +5,7 @@ body {
     margin: auto;
 }
 h1 {
-    font-size: 5em;
-
+    font-size: 3em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -20,12 +19,12 @@ h3 {
     font-size: 1em;
     padding-bottom: 1em;
 }
-main { 
-        display: grid;
-        grid-template-columns: 40% 60%;
-        margin-top: 3em;
-    }
 
+main { 
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3em;
+}
 header {
     text-align: center;
     margin: auto 2em;
@@ -45,7 +44,7 @@ p {
 
 hr {
     border: none;
-    background-color: rgb(81, 34, 34);
+    background-color: lightgray;
     height: 1px;
 }
 
@@ -53,4 +52,6 @@ h1, h2, h3 {
     font-weight: 100;
     margin-bottom: 0;
 }
-
+#mainLeft {
+    border-right: 1px solid lightgray;
+}
